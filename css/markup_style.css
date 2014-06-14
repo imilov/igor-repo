@@ -1,0 +1,158 @@
+
+/*Global*/
+
+html, body{
+	margin:0px;
+	padding: 0px;
+	background: rgb(50,50,50);
+	color: #fff; 
+	font-size: 18px;
+	font-family: Helvetica;
+	lete
+}
+
+a, a:visited, a:link{
+	color: rgb(255,255,255);
+}
+a:hover{
+	color: rgb(63,137,240);
+}
+
+button{
+	padding: 10px;
+	border: 0px;
+	background: rgb(63,137,240);
+	color:#fff;
+	font-size: 18px;
+	-webkit-border-radius:10px;
+	margin: :20px;
+	cursor: pointer;
+}
+button:hover{
+	background: rgb(255,255,0);
+	color:#000;
+}
+
+section header h1{
+	font-size: 26px;
+	margin: 0px;
+}
+section header h2{
+	font-size: 18px;
+	margin: 0px;
+}
+
+section header{
+	margin: 40px 0px 40px 0px;
+}
+
+.left-img{
+	float: left;
+    margin: 0px 20px 20px 50px;
+}
+
+.bold-blue-text{
+	color: rgb(63,137,240);
+	font-size: 600;
+}
+
+table-cell{
+	display: table-cell;
+}
+
+
+.content-block{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.full-width-content-block{
+
+}
+}
+#logo{}
+
+#logo h1{
+	display: inline-block;
+	color: rgb(63,137,240);
+	text-transform: uppercase;
+	letter-spacing: -5px;
+}
+
+#logo h2{
+	display: inline-block;
+}
+
+#top-nav{
+
+}
+#top-nav ul li{
+	margin: 0px;
+	padding: 10px;
+	list-style-type: none;
+	display: inline-block;
+	
+}
+#top-nav ul li a{
+	text-decoration: none;
+	font-weight: 600px;
+}
+
+#top-nav ul li a.external:hover{
+	color: rgb(255,0,255);
+}
+
+/*INTRO section*/
+
+#intro{
+	background: url('../images/chicago-skyline-wallpaper.jpg') center center no-repeat fixed;
+	text-align: center;
+	padding: 80px;
+	-webkit-background-size: cover;
+}
+
+#intro h1{
+	font-size: 30px;
+	margin: 0px;
+}
+#intro h2{
+	font-size: 16px;
+	margin: 0px;
+}
+
+#gallery{
+	background: url('../images/chicago-skyline-wallpaper.jpg') center center no-repeat fixed;
+	text-align: center;
+	padding: 80px;
+	-webkit-background-size: cover;
+}
+
+#gallery header, #gallery .table{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gallery .table .table-cell{
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+#gallery .gallery-img-kitty{
+	background: rgba(0,0,0,0.7);
+	padding: 1px;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	-webkit-transform: translateY(60px);
+}
+
+#gallery .table .table-cell: hover > .gallery-img-kitty{
+	-webkit-transform; translateY(0px)
+}
+/*ABOUT section*/
+#about{}
+
+/*PRODUCTS section*/
